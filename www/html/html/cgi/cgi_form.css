@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+	background: url(../img/background_party.jpg) repeat center center fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: ballon;
+	src: url(../fonts/sf-balloons.regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: berry;
+    src: url(../fonts/Berry_Merry.otf);
+}
+
+@font-face {
+	font-family: laila;
+	src: url(../fonts/Laila-Bold.ttf) format('truetype');
+}
+
+.icon {
+	position: fixed;
+    right: 0;
+}
+
+.icon_cgi {
+	position: fixed;
+	right: 0;
+	margin-top: 120px;
+}
+
+.paint {
+	position: fixed;
+	right: 0;
+	margin-top: 240px;
+}
+
+.house {
+	position: fixed;
+	right: 0;
+	margin-top: 360px;
+}
+
+.danse {
+	position: fixed;
+	right: 0;
+	margin-top: 480px;
+	margin-right: 10px;
+}
+
+h1 {
+    color: purple;
+    font-family: ballon;
+	font-size: 600%;
+	text-align: center;
+}
+
+.hamster {
+    text-align: center;
+}
+
+.inscription {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: laila;
+	color: black;
+	font-size: 150%;
+}
+
+.res {
+	color: blue;
+}
+
+.bouton {
+	margin: 10px;
+	background-color: purple;
+	color: white;
+	text-align: center;
+	font-family: berry;
+	font-size: 150%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

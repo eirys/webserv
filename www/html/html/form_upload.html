@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cutie webserv 😚 💖</title>
+		<meta charset="UTF-8">
+		<link href="form_upload.css" rel="stylesheet">
+		<link rel="icon" href="img/favicon.ico">
+		<script type="text/javascript" src="form.js"></script>
+	</head>
+	<body bgcolor="#850E35">
+		<div class="icon">
+			<a href="form_order"><img src="img/icon_panier_no_cgi.png" width="100px"></a>
+		</div>
+		<div class="icon_cgi">
+			<a href="cgi/cgi_achat.php"><img src="img/icon_panier_with_cgi.png" width="100px"></a>
+		</div>
+		<div class="paint">
+			<a href="form_gallery"><img src="img/icon_paint.png" width="100px"></a>
+		</div>
+		<div class="house">
+			<a href="index.html"><img src="img/icon_house.png" width="100px"></a>
+		</div>
+		<div class="danse">
+			<a href="http://gcasale.free.fr/viva.htm"><img src="img/icon_dance.gif" width="90px"></a>
+		</div>
+		<h1>
+			👙 Plateforme d'echange de nudes de hamsters 🩲
+		</h1>
+		<div class="hamster">
+			<img src="img/hamster_slip.png" width="400">
+		</div>
+		<div class="form_container">
+			<legend>C'est un form POST avec INPUT File</legend>
+			<form id="form" action="javascript:uploadData()" method="post" class="formulaire" accept='image/*' enctype="multipart/form-data">
+				<div class="formulaire">
+					<label for="nude">Envoyez votre nude * :</label>
+					<input id="file" type="file" accept="image/*" name="nude"><br>
+				</div>
+				<input type="submit" value="JE VEUX MON CASH !" class="bouton"></input>
+			</form>
+			<!-- ====================================================================================== -->
+			<legend>C'est un form POST avec INPUT File et CGI</legend>
+			<form action="../cgi/cgi_upload.py" method="post" class="formulaire" accept='image/*' enctype="multipart/form-data">
+				<div class="formulaire">
+					<label form="nude">Envoyez votre nude * :</label>
+					<input type="file" accept="image/*" name="nude"><br>
+				</div>
+				<input type="submit" value="JE VEUX MON CASH !" class="bouton"></input>
+			</form>
+		</div>
+		<h3>
+			* Fichiers de format image seulement 🖼️
+		</h3>
+		<form action="./form_gallery">
+			<center><input type="submit" value="Voir la galerie de nudes" class="bouton" /></center>
+		</form>
+		<form action="./index.html">
+			<center><input type="submit" value="Retour vers la page d'accueil" class="bouton" /></center>
+		</form>
+	</body>
+</html>

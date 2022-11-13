@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cutie webserv 😚 💖</title>
+		<meta charset="UTF-8">
+		<link href="form_sans_cgi.css" rel="stylesheet">
+		<link rel="icon" href="img/favicon.ico">
+	</head>
+	<body bgcolor="#D6EFED">
+		<div class="icon">
+			<a href="form_order"><img src="img/icon_panier_no_cgi.png" width="100px"></a>
+		</div>
+		<div class="icon_cgi">
+			<a href="cgi/cgi_achat.php"><img src="img/icon_panier_with_cgi.png" width="100px"></a>
+		</div>
+		<div class="paint">
+			<a href="form_gallery"><img src="img/icon_paint.png" width="100px"></a>
+		</div>
+		<div class="house">
+		        <a href="index.html"><img src="img/icon_house.png" width="100px"></a>
+		</div>
+		<div class="danse">
+		        <a href="http://gcasale.free.fr/viva.htm"><img src="img/icon_dance.gif" width="90px"></a>
+		</div>
+		<h1>
+			<center>Demande d'adoption de futurs compagnons de cage 💝</center>
+		</h1>
+		<div class="hamster">
+			<img src="img/hamster_heart.jpg" width="800">
+		</div>
+		<div class="form_container">
+			<legend>C'est un form GET sans CGI</legend>
+			<form action="form_accept.html" method="get" class="formulaire">
+				<div class="formulaire">
+					<label for="name">Entrez votre nom :</label>
+					<input type="text" id="name" placeholder="Saul" name="name" required minlength="1" maxlength="100"><br>
+					<label for="hamster">Entrez le prenom de votre futur hamster :</label>
+					<input type="text" id="hamster" placeholder="Rocky Siffredo" name="hamster" required minlength="1" maxlength="100"><br>
+					<label for="color">Veuillez selectionner la couleur de votre futur hamster :</label>
+					<input type="color" id="color" name="color" value="#997a8d"><br>
+				</div>
+				<input type="submit" value="JE VEUX MON HAMSTER !" class="bouton"></input>
+			</form>
+		<!-- ======================================================================= -->
+			<legend>C'est un form POST sans CGI</legend>
+			<form action="form_accept" method="post" class="formulaire" enctype="multipart/form-data">
+				<div class="formulaire">
+					<label for="name">Entrez votre nom :</label>
+					<input type="text" id="name" placeholder="Vincent" name="name" required minlength="1" maxlength="100"><br>
+					<label for="hamster">Entrez le prenom de votre futur hamster :</label>
+					<input type="text" id="hamster" placeholder="Bachelor" name="hamster" required minlength="1" maxlength="100"><br>
+					<label for="color">Veuillez selectionner la couleur de votre futur hamster :</label>
+					<input type="color" id="color" name="color" value="#FAEE2F"><br>
+				</div>
+				<input type="submit" value="JE VEUX MON HAMSTER !" class="bouton"></input>
+			</form>
+		<!-- ======================================================================= -->
+			<legend>C'est un BAD form GET sans CGI qui ne marche pas</legend>
+			<form action="vodka" method="get" class="formulaire" enctype="multipart/form-data">
+				<div class="formulaire">
+					<label for="name">Entrez votre nom :</label>
+					<input type="text" id="name" placeholder="Patricia" name="name" required minlength="1" maxlength="100"><br>
+					<label for="hamster">Entrez le prenom de votre futur hamster :</label>
+					<input type="text" id="hamster" placeholder="Lolo Ferrari" name="hamster" required minlength="1" maxlength="100"><br>
+					<label for="color">Veuillez selectionner la couleur de votre futur hamster :</label>
+					<input type="color" id="color" name="color" value="#DC143C"><br>
+				</div>
+				<input id="submitBtn" type="submit" value="JE VEUX MON HAMSTER !" class="bouton"></input>
+			</form>
+		<!-- ======================================================================= -->
+			<legend>C'est un BAD form POST sans CGI qui ne marche pas</legend>
+			<form action="inexistant/chartreuse" method="post" class="formulaire" enctype="multipart/form-data">
+				<div class="formulaire">
+					<label for="name">Entrez votre nom :</label>
+					<input type="text" id="name" placeholder="Gertrude" name="name" required minlength="1" maxlength="100"><br>
+					<label for="hamster">Entrez le prenom de votre futur hamster :</label>
+					<input type="text" id="hamster" placeholder="Mon marechal a moi" name="hamster" required minlength="1" maxlength="100"><br>
+					<label for="color">Veuillez selectionner la couleur de votre futur hamster :</label>
+					<input type="color" id="color" name="color" value="#55BB33"><br>
+				</div>
+				<input id="submitBtn" type="submit" value="JE VEUX MON HAMSTER !" class="bouton"></input>
+			</form>
+		</div>
+	</body>
+</html>

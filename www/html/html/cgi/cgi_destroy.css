@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+	background: url(../img/paris_ugly.jpg) repeat center center fixed;
+	background-size: cover;
+}
+
+@font-face {
+    font-family: berry;
+    src: url(../fonts/Berry_Merry.otf);
+}
+
+@font-face {
+    font-family: metro;
+    src: url(../fonts/Metropolitain.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: NotoSerifKR_R;
+	src: url(../fonts/NotoSerifKR-Bold.otf)
+}
+
+@font-face {
+	font-family: NotoSerifKR_L;
+	src: url(../fonts/NotoSerifKR-Light.otf)
+}
+
+@font-face {
+	font-family: kg;
+	src: url(../fonts/KGLesBouquinistesdeParis.ttf) format('truetype');
+}
+
+.icon {
+	position: fixed;
+    right: 0;
+}
+
+.icon_cgi {
+	position: fixed;
+	right: 0;
+	margin-top: 120px;
+}
+
+.paint {
+	position: fixed;
+	right: 0;
+	margin-top: 240px;
+}
+
+.house {
+	position: fixed;
+	right: 0;
+	margin-top: 360px;
+}
+
+.danse {
+	position: fixed;
+	right: 0;
+	margin-top: 480px;
+	margin-right: 10px;
+}
+
+.hamster {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-family: metro;
+	text-align: center;
+	font-size: 400%;
+}
+
+.hamster {
+    text-align: center;
+}
+
+.phrase {
+	font-family: kg;
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	margin-bottom: 50px;
+}
+
+.bouton {
+	margin-top: 10px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	font-family: berry;
+	font-size: 150%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

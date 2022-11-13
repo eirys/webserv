@@ -1,0 +1,92 @@
+/* body {
+    margin: 0;
+    padding: 0;
+	background-color: #FF69B4;
+} */
+
+.background {
+	background: url(img/sunflower.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@font-face {
+    font-family: berry;
+    src: url(fonts/Berry_Merry.otf);
+}
+
+@font-face {
+    font-family: katelina;
+    src: url(fonts/Katenila-OVJL6.otf);
+}
+
+
+@font-face {
+	font-family: NotoSerifKR_R;
+	src: url(fonts/NotoSerifKR-Bold.otf)
+}
+
+@font-face {
+	font-family: NotoSerifKR_L;
+	src: url(fonts/NotoSerifKR-Light.otf)
+}
+
+.icon {
+	position: fixed;
+    right: 0;
+}
+
+.paint {
+	position: fixed;
+	right: 0;
+	margin-top: 120px;
+}
+.house {
+	position: fixed;
+	right: 0;
+	margin-top: 240px;
+}
+
+.danse {
+	position: fixed;
+	right: 0;
+	margin-top: 360px;
+	margin-right: 10px;
+}
+
+h1 {
+    color: #511845;
+    font-family: katelina;
+	font-size: 500%;
+}
+
+.hamster {
+    text-align: center;
+}
+
+.requete {
+	margin-top: 50px;
+	margin-bottom: 15px;
+	font-family: katelina;
+	font-size: 250%;
+	color: #900C3F;
+}
+
+.happy {
+	margin-bottom: 15px;
+	font-family: katelina;
+	font-size: 250%;
+	color: #C70039;
+}
+
+.bouton {
+	margin: 10px;
+	background-color: #FF5733;
+	color: white;
+	text-align: center;
+	font-family: berry;
+	font-size: 150%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

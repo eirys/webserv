@@ -1,0 +1,36 @@
+body {
+	background: #222831;
+}
+
+h1 {
+	color: #FFDF00;
+	font-family: chapbook_i;
+	font-size: 500%;
+}
+
+h2 {
+	color: #FFDF00;
+	font-family: chapbook;
+	font-size: 200%;
+}
+
+footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background: #00ADB5;
+	font-family: chapbook;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: chapbook;
+	src: url(fonts/Chapbook-Regular.otf);
+}
+
+@font-face {
+	font-family: chapbook_i;
+	src: url(fonts/Chapbook-Italic.otf);
+}
